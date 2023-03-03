@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+.num{
+    background-color: rgb(45, 42, 47);
+    min-height: 100px;
+    width: 500px;
+    margin: 0 auto;
+}
+.title{
+    padding-top: 10px;
+    color: white;
+}
+.flex{
+    display:flex;
+    width: 100%;
+}
+.flex1{
+    margin: 0 auto;
+}
+.todo{
+    text-align: left;
+    margin: 0 auto;
+    width: 500px;
+}
+.list{
+    border: 1mm solid;
+}
+.input{
+    border: none;
+    width: 100%;
+}
+.btn{
+    text-align: right;
+}
+.hidden{
+    display: none;
+}
+.bn{
+    all:none;
+    background: none;
+    color: blue;
+    border: none;
+    text-decoration: none ;
+    height: 30px;
+    cursor: pointer;
+    font-weight: 100;
+}
